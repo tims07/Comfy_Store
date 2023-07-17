@@ -46,10 +46,8 @@ window.addEventListener('DOMContentLoaded', async () => {
                 const span = document.createElement('span');
                 span.classList.add('product-color');
                 span.style.backgroundColor = `${color}`;
-                colorsDOM.appendChild(span)
+                colorsDOM.appendChild(span);
             })
-          
-
 
         } else {
             console.log(response.status, response.statusText)
